@@ -1,8 +1,8 @@
-#This is the main file in which run all the functions. 
 from inventory import add_to_list, show_total, show_products
 from validation import name_validator, price_validator, amount_validator
 from messages import welcome_message_fun, bye_message_function, menu_function
 from validation import name_validator, price_validator, amount_validator
+#This is the main file in which run all the functions. 
 
 product_list = []
 
@@ -30,6 +30,7 @@ while active:
 
     elif option not in ["1", "2", "3", "4"]:
         print("Invalid option. Please try again.")
+        
 #Bye message
 bye_message_function()
     
